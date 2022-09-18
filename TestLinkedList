@@ -1,0 +1,19 @@
+import java.util.LinkedList;
+
+public class TestLinkedList {
+    public static void main (String args[]){
+        Node ll = new Node();
+
+        ll.addFirst(5);
+        ll.addFirst(7);
+        ll.addFirst(10);
+        ll.addLast(100);
+        ll.addFirst(50);
+        ll.addAtPosition(69, 2);
+        System.out.println(ll.traversal());
+        System.out.println("List has " + ll.currentSize() + " data");
+
+
+        
+    }
+}
